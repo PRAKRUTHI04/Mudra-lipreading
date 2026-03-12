@@ -1,0 +1,22 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+v_env/
+
+# Frontend dependencies/build
+frontend/node_modules/
+frontend/dist/
+
+# Backend heavy model/data artifacts (exclude from code push)
+backend/models/*.tar
+backend/models/*.pth
+backend/models/*.pt
+backend/shape_predictor_68_face_landmarks.dat
+backend/preprocessing/*.npy
+backend/preprocessing/*.csv
+
+# Common editor/system
+.DS_Store
+Thumbs.db
