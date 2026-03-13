@@ -14,9 +14,11 @@ frontend/dist/
 backend/models/*.tar
 backend/models/*.pth
 backend/models/*.pt
+backend/models/
 backend/shape_predictor_68_face_landmarks.dat
 backend/preprocessing/*.npy
 backend/preprocessing/*.csv
+backend/lipreading/
 
 # Common editor/system
 .DS_Store
@@ -24,3 +26,6 @@ Thumbs.db
 
 # Virtual environments
 v_env/
+
+# Models
+models/
