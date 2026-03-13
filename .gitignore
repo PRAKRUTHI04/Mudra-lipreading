@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.pyc
 v_env/
 
 # Frontend dependencies/build
@@ -20,3 +21,6 @@ backend/preprocessing/*.csv
 # Common editor/system
 .DS_Store
 Thumbs.db
+
+# Virtual environments
+v_env/
