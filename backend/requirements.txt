@@ -1,4 +1,12 @@
-flask
-flask-cors
-werkzeug
-torch
+Flask==3.0.3
+Flask-Cors==4.0.1
+Werkzeug==3.0.3
+torch==2.3.1
+torchvision==0.18.1
+numpy==1.26.4
+opencv-python==4.10.0.84
+face-alignment==1.4.1
+dlib==19.24.6
+librosa==0.10.2.post1
+scikit-image==0.24.0
+Django==5.0.6
