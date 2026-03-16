@@ -11,7 +11,7 @@ https://drive.google.com/drive/folders/1Ul-bhYOithL3cFqUdpEaYSm4bTBeLCfG?usp=sha
 
 ### Where to Place Models
 The model directory contains two models which our group trained (10 word model and 20 word model) and another model which has been trained on the full 500 words by other data scientists.
-To use these models you will need to move them into the lipreading/models folder and then after starting the application you will be able to select which model you want to use on a live web-cam stream or on uploaded pre-recorded videos.
+To use these models you will need to move them into the backend/models folder and then after starting the application you will be able to select which model you want to use on a live web-cam stream or on uploaded pre-recorded videos.
 
 This application uses Django for the front-end to make the models that have been used accessable in a web application. 
 
@@ -26,5 +26,6 @@ This application uses Django for the front-end to make the models that have been
 2. run command `python -m venv web_venv` in your terminal.
 3. run command `source web_venv/Scripts/activate`
 4. run command `pip install -r requirements.txt`
-5. run command `python manage.py runserver`
-6. After the server is up and running open up your web browser and navigate to `http://localhost:8000` or `http://127.0.0.1:8000`
+5. run command `cd backend`
+6. run command `python app.py`
+7. After the server is up and running open up your web browser and navigate to  `http://127.0.0.1:5000`
