@@ -14,13 +14,10 @@ frontend/dist/
 backend/models/*.tar
 backend/models/*.pth
 backend/models/*.pt
-backend/models/
 backend/shape_predictor_68_face_landmarks.dat
 backend/preprocessing/*.npy
 backend/preprocessing/*.csv
 backend/preprocessing/__pycache__/
-backend/preprocessing/
-backend/lipreading/
 backend/__pycache__/
 
 # Common editor/system
@@ -30,9 +27,9 @@ Thumbs.db
 # Virtual environments
 v_env/
 
-# Models
-models/
 
 # Backups and logs
 *.log
 frontend_backup/
+
+backend.zip
